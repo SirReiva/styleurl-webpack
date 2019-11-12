@@ -1,5 +1,5 @@
 {
-  "name": "style-url-webpack",
+  "name": "style-url-webpack-as-string",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

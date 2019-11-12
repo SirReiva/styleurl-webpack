@@ -1,5 +1,5 @@
 # Webpack loader
-#### Template Url
+#### Style Url
 
 
 Replace object url to require
@@ -7,20 +7,20 @@ Replace object url to require
 ```js
 From
 {
-templateUrl: './index.html'
+styleUrl: './index.css'
 }
 To
 {
-templateUrl: require('./index.html')
+styleUrl: import './css.html'
 }
 ```
 
 ###  webpack
-**install:**    npm i -D template-url-webpack
+**install:**    npm i -D style-url-webpack
 ```js
 {
-	test: /\.js$/,
-	loader:  'template-url-webpack',
+	test: /\.s?css$/,
+	loader:  'style-url-webpack',
 	exclude: ['node_modules'],
 	include: [path.resolve(__dirname, 'src')]
 },

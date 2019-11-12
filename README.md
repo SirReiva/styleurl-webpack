@@ -16,11 +16,11 @@ styleUrl: import './index.css'
 ```
 
 ###  webpack
-**install:**    npm i -D style-url-webpack
+**install:**    npm i -D style-url-webpack-as-string
 ```js
 {
 	test: /\.s?css$/,
-	loader:  'style-url-webpack',
+	loader:  'style-url-webpack-as-string',
 	exclude: ['node_modules'],
 	include: [path.resolve(__dirname, 'src')]
 },

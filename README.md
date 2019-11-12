@@ -11,7 +11,7 @@ styleUrl: './index.css'
 }
 To
 {
-styleUrl: import './css.html'
+styleUrl: import './index.css'
 }
 ```
 

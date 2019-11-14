@@ -6,7 +6,7 @@ module.exports = function (source) {
 
 
     // template pattern
-    const pattern = new RegExp(/\w+:(|[\s]+?)("|')?([\w+-?[\w\s+.\\*]+.s?css)("|')/);
+    const pattern = new RegExp(/\w+:(|[\s]+?)("|')?([\w+-?[\w\s+.\\*]+.s?css)("|')/gm);
     const groups = source.match(pattern);
 
     if (groups !== null) {

@@ -21,7 +21,7 @@ styleUrl: import './index.css'
 {
 	test: /\.s?css$/,
 	loader:  'style-url-webpack-as-string',
-	exclude: ['node_modules'],
+	exclude: /node_modules'/,
 	include: [path.resolve(__dirname, 'src')]
 },
 ```
